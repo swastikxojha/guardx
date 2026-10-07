@@ -1,0 +1,2 @@
+# Agents
+Security detects prompt injection/jailbreak/suspicious actions and output disclosures. Privacy performs local PII and secret detection/redaction. Content applies lightweight harmful-content rules. Policy evaluates configurable organization rules. The optional Semantic Judge uses a local Ollama model on locally sanitized text to look for contextual/abstract risks. It may escalate a decision but cannot lower a deterministic block; provider errors route to human review. Arbiter resolves conflicts deterministically.

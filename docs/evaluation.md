@@ -1,0 +1,2 @@
+# Evaluation
+Run `python -m evaluation.run --dataset evaluation/sample_dataset.json`. AdvBench is the primary benchmark specified by the project. Because the benchmark is not bundled, provide the dataset locally and record actual results. The evaluator computes accuracy, precision, recall, F1, FPR, FNR, attack-success rate and latency. Decision consistency is reported only when multiple judgments are available.

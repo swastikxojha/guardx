@@ -1,0 +1,3 @@
+# Optional local named-entity recognition for free-form person names.
+# Install this only when the spaCy model is also installed locally.
+spacy>=3.8,<4
